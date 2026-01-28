@@ -16,6 +16,7 @@ function enviar() {
     let telefonoS = document.getElementById('telefonoS').value;
     const cargo = document.getElementById('cargo');
     const lvlInst = document.getElementById('lvlInst');
+    const sede = document.getElementById('sede');
     const dias = document.querySelectorAll('input[name="arrDisponible[]"]');
 
     if (erNombres.test(nombres) == false ) {
@@ -60,6 +61,11 @@ function enviar() {
 
     if (lvlInst.value == "") {
         alert('Seleccione su nivel institucional.');
+        return false;
+    }
+    
+    if (sede.value == "" ) {
+        alert('Seleccione su sede.');
         return false;
     }
     
