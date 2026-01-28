@@ -55,9 +55,9 @@
                 <label class="defaultLabel" > Cargo </label><br>
                 <select name="cargo" id="cargo" >
                     <option value="" disabled selected>Cargo</option>
-                    <option value="G"> Gerente </option>
-                    <option value="D"> Contador </option>
-                    <option value="C"> Chofer </option>
+                    <option value="Gerente"> Gerente </option>
+                    <option value="Contador"> Contador </option>
+                    <option value="Chofer"> Chofer </option>
             </select><br>
             </div>
             <!-- Nivel Institucional -->
@@ -65,10 +65,23 @@
                 <label class="defaultLabel" > Nivel Institucional </label><br>
                 <select name="lvlInst" id="lvlInst" >
                     <option value="" disabled selected>Nivel institucional</option>
-                    <option value="B"> Bachiller </option>
-                    <option value="T"> TSU </option>
-                    <option value="L"> Lcdo. </option>
-                    <option value="I"> Ing. </option>
+                    <option value="Bachiller"> Bachiller </option>
+                    <option value="Técnico"> TSU </option>
+                    <option value="Licenciado"> Lcdo. </option>
+                    <option value="Ingeniero"> Ing. </option>
+            </select><br>
+                        </div>
+            <!-- Sede -->
+            <div id="boxSede" >
+                <label class="defaultLabel" > Sede </label><br>
+                <select name="sede" id="sede" >
+                    <option value="" disabled selected>Sede</option>
+                    <option value="Zulia"> Zulia </option>
+                    <option value="Caracas"> Caracas </option>
+                    <option value="Falcón"> Falcón </option>
+                    <option value="Mérida"> Mérida </option>
+                    <option value="Monagas"> Monagas </option>
+                    <option value="Táchira"> Táchira </option>
             </select><br>
             </div>
             <!-- Dias Disponibles -->
